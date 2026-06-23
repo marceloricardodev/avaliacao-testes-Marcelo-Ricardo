@@ -3,7 +3,7 @@ public class Main {
 
         calculadora calc = new calculadora();
 
-        System.out.println("Soma: " + calc.soma(10, 5));
-        System.out.println("Divisão: " + calc.divisao(10, 2));
+        System.out.println(calc.soma(5, 5));
+        System.out.println(calc.divisao(10, 2));
     }
 }
